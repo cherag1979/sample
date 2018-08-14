@@ -1,6 +1,3 @@
-ASSESSMENT for EverlightRadiology
-
-
 Environment used to create the framework for the assessment is as below:
 
 git version 2.10.1
@@ -57,10 +54,3 @@ The test cases are written in gherkin format in the form of Feature files (.feat
 They are located in assessment/src/test/resources/Features
 Currently, only the scenarios that are tagged with @sanity are automated
 
-
-
-Total time taken to complete the project is approximately 9 hrs
-Breakdown:
-Setup env - 3 hrs
-Feature / Scenarios writing - 2 hrs
-Implementation of automated scenarios - 4 hrs
