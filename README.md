@@ -1,4 +1,4 @@
-Environment used to create the framework for the assessment is as below:
+Environment used to create the framework is as below:
 
 git version 2.10.1
 maven version 3.5.4
@@ -7,6 +7,9 @@ Serenity - version 1.5.8
 Serenity Cucumber version 1.1.8
 Platform - OSX - El Capitan 10.11.3
 
+Test Application URLs:
+http://computer-database.herokuapp.com/computers
+https://the-internet.herokuapp.com/javascript_alerts
 
 
 Pre-Requisites:
@@ -53,4 +56,8 @@ Test Cases:
 The test cases are written in gherkin format in the form of Feature files (.feature) and scenarios within the feature file
 They are located in assessment/src/test/resources/Features
 Currently, only the scenarios that are tagged with @sanity are automated
+
+Report:
+Once the build is successful, the html report is available as /target/site/serenity/index.html
+
 
